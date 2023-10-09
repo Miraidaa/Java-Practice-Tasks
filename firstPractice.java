@@ -28,7 +28,27 @@ argument. Printing to the
  } else {
      System.out.println("Please write your name!");
  }
- }   
- }  
+   
+   
 
 
+//The program below should print the half of the numbers 1, 2, 3 and 4. 
+  
+  //my solution
+for (double i = 1; i <= 4; i++) {
+    System.out.println (i / 2.0);
+}
+
+
+/*Implement a program which computes the factorial of a given natural number. */
+
+String theNum = System.console().readLine("Enter desired number : "); 
+int num = Integer.parseInt((theNum));
+
+int factorial = 1; 
+for (int i = 1; i <= num; i++) {
+    factorial*=i;
+}
+ System.out.println("The factorial of" + " " + num + " " +  "is" +  " " + factorial);
+}
+ } 
