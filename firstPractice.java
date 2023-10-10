@@ -52,3 +52,5 @@ for (int i = 1; i <= num; i++) {
  System.out.println("The factorial of" + " " + num + " " +  "is" +  " " + factorial);
 }
  } 
+
+ 
